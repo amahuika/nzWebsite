@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Animate on Scroll CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8956a36741.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Styles CSS -->
+    <link rel="stylesheet" href="style/styles.css">
+
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+</head>
+
+<div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">New Zealand</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Regions </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="canterbury.html">Canterbury</a></li>
+                            <li><a class="dropdown-item" href="waikato.html"> Waikato</a></li>
+                            <li><a class="dropdown-item" href="auckland.html">Auckland</a></li>
+                            <li><a class="dropdown-item" href="otago.html">Otago</a></li>
+                            <li><a class="dropdown-item" href="wellington.html">Wellington</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history.html">History</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slide show Header -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <img src="images/Events/header events (1).jpg" class="d-block w-100 img-fluid " alt="...">
+                <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+                    <h1 class="header-title fw-bold display-2">Events</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Events/events header slide show (1).jpg" class="d-block w-100 img-fluid " alt="...">
+                <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+                    <h1 class="header-title fw-bold display-2">Festivals</h1>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img src="images/Events/events image (1).jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle">
+                    <h1 class="header-title fw-bold display-2">Food & Wine</h1>
+                </div>
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <!-- Main Content -->
+    <div class="text-center container my-5">
+        <h1>Whats on</h1>
+        <p>Whether you're into beer, culture, sport, or all of the above, add a New Zealand event to your itinerary.
+            Check out up coming events and start planning your trip!</p>
+    </div>
+    <div class="container">
+        <div class="row" data-aos="zoom-in-right" data-aos-duration="1000">
+            <h2 class="text-center my-5">Hokitika Wild Foods Festival</h2>
+            <div class="col-md-6 img-hover-zoom">
+                <a href="https://wildfoods.co.nz/"><img src="images/Events/hokitikafoodfestival.jpg" class="img-fluid"
+                        alt=""></a>
+            </div>
+
+            <div class="col-md-6">
+                <p><span class="fw-bold fs-3">1.</span> Celebrating the unique food and drink of the
+                    West Coast, <a href="https://wildfoods.co.nz/"> Hokitika Wildfoods Festival </a>is unlike any other
+                    food festival. From
+                    crocodile bites to deep fried pigs ears, you'll need to be adventurous to sample the locals'
+                    culinary creativity.</p>
+            </div>
+        </div>
+        <div class="row" data-aos="zoom-in-left" data-aos-duration="1000">
+            <h2 class="text-center my-5">Balloons Over Waikato</h2>
+            <div class="col-md-6">
+                <p><span class="fw-bold fs-3">2.</span> <a href="https://balloonsoverwaikato.co.nz/#start">Balloons over
+                        Waikato</a> is New Zealand's
+                    premier hot air balloon festival. Held annually in Hamilton, this five-day iconic event attracts
+                    balloonists from all over New Zealand and around the world. Experience the fun, friendship and
+                    warmth this balloon-friendly city provides and watch the professionals demonstrate their skills in a
+                    range of competitive activities.</p>
+            </div>
+            <div class="col-md-6 img-hover-zoom">
+                <a href="https://balloonsoverwaikato.co.nz/#start"> <img
+                        src="images/Events/hot air ballosoverwaikato.jpg" class="img-fluid" alt=""></a>
+            </div>
+        </div>
+        <div class="row" data-aos="zoom-in-right" data-aos-duration="1000">
+            <h2 class="text-center my-5">Pasifika Festival, Auckland</h2>
+            <div class="col-md-6 img-hover-zoom">
+                <a href="https://www.aucklandnz.com/pasifika-festival-2021"><img
+                        src="images/Events/pasifikafestival.jpg" class="img-fluid" alt=""></a>
+            </div>
+
+            <div class="col-md-6">
+                <p><span class="fw-bold fs-3">3.</span> What started as a picnic day, <a
+                        href="https://www.aucklandnz.com/pasifika-festival-2021"> Pasifika Festival</a>
+                    has become the largest gathering of its kind in the world. Nowadays, 11 stages resonate with
+                    the sounds of brass bands, drummers, ukuleles and melodic voices every year, showcasing the
+                    traditions and prowess of the Pacific peoples, including the Māori of Aotearoa New Zealand.</p>
+            </div>
+        </div>
+        <div class="row" data-aos="zoom-in-left" data-aos-duration="1000">
+            <h2 class="text-center my-5">Queenstown Winter Festival</h2>
+            <div class="col-md-6">
+                <p><span class="fw-bold fs-3">4</span>
+                    Celebrate the arrival of winter in true Queenstown style with 10 days of parties, fireworks, music,
+                    comedy and plenty of mountain fun. The ultimate winter escape, <a
+                        href="https://www.winterfestival.co.nz/">Queenstown Winter festival
+                    </a> is held every year and promises live music, competitive mountain exploits, comedy,
+                    fireworks, culinary creativeness, and polar lake plunging. </p>
+            </div>
+            <div class="col-md-6 img-hover-zoom">
+                <a href="https://www.winterfestival.co.nz/"> <img src="images/Events/queenstown winter fest image.jpg"
+                        class="img-fluid" alt=""></a>
+            </div>
+        </div>
+        <div class="row" data-aos="zoom-in-right" data-aos-duration="1000">
+            <h2 class="text-center my-5">Rhythm and Vines, Gisborne</h2>
+            <div class="col-md-6 img-hover-zoom">
+                <a href="https://www.rhythmandvines.co.nz/"><img src="images/Events/rythem and vines.jpg"
+                        class="img-fluid" alt=""></a>
+            </div>
+
+            <div class="col-md-6">
+                <p><span class="fw-bold fs-3">5.</span>
+                    Where better to experience the first sunrise of the year than at New Zealand’s biggest music
+                    festival, <a href="https://www.rhythmandvines.co.nz/">Rhythm and Vines</a> . The internationally
+                    acclaimed three-day music
+                    festival showcases the world’s best musicians in one of the most beautiful locations on earth,
+                    Gisborne.</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="container-fluid mt-5" id="footer">
+        <div class="row">
+            <div class="col text-center">
+                <p>
+                    <a href="#"><i style="color: #fff5eb;" class="fa fa-2x fa-facebook-official pt-3 px-3"></i></a>
+                    <a href="#"><i style="color: #fff5eb;" class="fa fa-2x fa-google-plus px-3"></i></a>
+                    <a href="#"><i style="color: #fff5eb;" class="fa fa-2x fa-twitter px-3"></i></a>
+                    <a href="#"><i style="color: #fff5eb;" class="fa fa-2x fa-linkedin px-3"></i></a>
+                </p>
+                <p class="copyright">Aron Mahuika 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CDN for Animate on scroll library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap JS Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <!-- My Javascript -->
+    <script src="script/script.js"></script>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    </body>
+
+</html>
